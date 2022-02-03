@@ -26,3 +26,4 @@ require __DIR__.'/auth.php';
 
 Route::get('/bar',[TestController::class,'bar']);
 Route::get('/foo',[TestController::class,'foo']);
+Route::get('/admin',[TestController::class,'admin']);

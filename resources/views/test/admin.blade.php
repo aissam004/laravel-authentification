@@ -9,20 +9,13 @@
 <body>
 
 
-    Foo page
+    Admin page
 
 
-    <h4>
-        lazem tkoun authentifié bech tchouf lta7t
-    </h4>
-    @auth
-    <p>
-        {{Auth::user()->id}}
-    </p>
-    <p>
-        {{Auth::user()->name}}
-    </p>
-    @endauth
+    <h1>
+        Hello admin
+    </h1>
+
 
 
 </body>
