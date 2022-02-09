@@ -28,8 +28,7 @@ class TestMarkDownMail extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_FROM_ADDRESS',env('MAIL_FROM_NAME')))
-                    ->markdown('mail.testMarkDownMail'
+        return $this->markdown('mail.testMarkDownMail'
                     ,['url'=>'http://laravel-authentification.local/']);
     }
 }
